@@ -10,13 +10,13 @@ public class TTTConsoleNonOO2P {
    public static final int CROSS = 1;
    public static final int NOUGHT = 2;
  
-   // Name-constants to represent the various states of the game
+   //Name-constants to represent the various states of the game
    public static final int PLAYING = 0;
    public static final int DRAW = 1;
    public static final int CROSS_WON = 2;
    public static final int NOUGHT_WON = 3;
  
-   // The game board and the game status
+   //The game board and the game status
    public static final int ROWS = 3, COLS = 3; // number of rows and columns
    public static int[][] board = new int[ROWS][COLS]; // game board in 2D array
                                                       //  containing (EMPTY, CROSS, NOUGHT)
