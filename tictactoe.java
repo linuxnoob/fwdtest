@@ -26,7 +26,6 @@ public class TTTConsoleNonOO2P {
    public static int currntRow, currentCol; // current seed's row and column
  
    public static Scanner in = new Scanner(System.in); // the input Scanner
- 
    /** The entry main method (the program starts here) */
    public static void main(String[] args) {
       // Initialize the game-board and current status
